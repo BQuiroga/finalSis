@@ -1,0 +1,75 @@
+Requerimienots para examen final de sisweb
+-	
+Pagina principal (1.5 pts)
+1.5
+
+Pagina de un usuario (1.5 pts)
+1 (falto direccion url con el username) //corregido
+
+Realizar un post (1 pts)
+1
+
+Seguir a otro usuario (1 pts)
+1 
+
+Muro de posts (1.5 pts)
+1.5
+
+Like (1 pts)
+1
+
+Repostear (1. 5 pts)
+0 
+
+
+Utilizar una plantilla CSS o framework CSS
+(2 pts. Se calificara lo siguiente en el diseño)
+1,5 (En la pagina principal el primer post sale desalineado y el menu que dice post en la pagina de perfil da un error) 
+
+
+Contador de letras restantes al hacer el post. (max 140) mientras ingresa el post (0,5 pts)
+
+0
+HECHO!!!!
+
+Realizar el post con método ajax ( 1 pts)
+
+0
+
+Realizar el follow con metodo ajax (0,5 pts)
+
+0
+
+Realizar el like con metodo ajax (0,5 pts)
+
+0
+
+Realizar el repost con metodo ajax (0,5 pts)
+
+0
+
+
+//////////////Lo q falta del examen/////////////////
+ b. (0,5 puntos) Implementar botones “No seguir” para cada usuario en la pagina donde se listen los usuarios.
+(el (b) falta)
+6. (1 punto) Implementar una pagina llamada notificaciones (accesible desde un menú) donde se listen todas los posts mios (del usuario que se encuentre loggeado) que fueron reposteados y se deb mostrar que usuario lo reposteo.
+
+
+
+//////////////Para el final examen/////////////////
+-Cargar Foto de usuario (2pts)
+-mostrar foto del autor de ese post(1pts)
+-Implementar todas las funciones del ul>mo examen (2 puntos) 
+
+-Opcion de responder post con otro post. (Reply) (2 puntos) 
+
+-Buscar usuario (2 puntos): Debe exis>r un campo de texto que me permita buscar otros usuarios. La busqueda debe devolver cualquier usuario que en su username tenga contenido el texto a buscar. (like %texto%)
+
+-Buscar posts (2 puntos): Debe exis>r un campo de texto que me permita buscar otros posts (no solo de los que sigo). La busqueda debe devolver cualquier post que en su texto tenga contenido el texto a buscar. (like %texto%) 
+
+
+-En la pagina notificaciones que se pidio en el examen además se debe listar todos los posts que fueron “likeado” por otro usuario y mostrar el usuario que hizo el like (2 puntos)
+
+-En la pagina notificaciones que se pidio en el examen además se debe listar todos los replys mostrar el usuario que hizo el reply (2 puntos) 
+
+-En la pagina principal colocar las 5 palabras mas usadas en todos los posts de todos los usuarios (no solo los que se siguen). No cuentan palabras menos de 4 letras. (5 puntos)

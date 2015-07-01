@@ -1,0 +1,120 @@
+http://www.codeshare.io/0dKm0
+php artisan make:migration create_article_tables --create="articles" // crea tabla articles
+crear tabla modelo
+-Mayuscula y singular
+borrar migracion migration:rollback
+'::' metodo de clase
+php artisan make:controller ArticlesController
+
+$art = new App\Article
+$art -> "title" = " Titulo viene aqui"
+$art -> "body" = " Cuerpo viene aqui"
+$art -> save();
+App\Review::all()->toArray();
+App\Article::find(1)
+App\Article::where(["title"=>"nuevo").get();
+
+
+->get() // vector de todos los que tengan ese en where
+->first() // el primero del arreglo
+
+
+
+
+composer require illuminate/html
+
+App.php
+	'providers' => [
+		'App\Providers\RouteServiceProvider',
+	'aliases' => [
+		'Form'		=> 'Illuminate\Html\FormFacade',
+
+
+php artisan make:requesArticleReques
+	protected $fillable = ['body','article_id'];
+	
+
+
+php artisan make:migration Comment
+
+Relacionar
+Coment:
+$table->integer("article_id")->unsigned();
+
+
+Tinker
+$var = new App\Article
+$var->commet
+
+$var = new App\Commet
+$var->article
+
+
+
+Index.Article
+		Foreach
+			{!! Form::open(['url'=>'commetns']) !!}
+			<br>
+			{!! Form::label('name','Comentarios:') !!}
+			{!! Form::text('coments') !!}
+			{!! Form::hidden('article_id','$article') !!}
+			<br><br>
+			{!! Form::submit('Guardar') !!}
+			{!! Form::close() !!}
+		{!! Form::close() !!}
+
+
+php artisan make:migration add_user_to_articles --table=articles
+
+aumentar like
+php artisan make:migration add_likes_to_articles --table=articles
+	$table->integer("like")->unsigned()->default(0);
+
+index
+	<a hrfe="/article"
+
+
+
+
+App\Review::all()->lists('content');
+
+$b=(array_count_values(str_word_count($a,1)))
+
+$array = array('apellido', 'email', 'teléfono');
+$separado_por_comas = implode(",", $array);
+
+
+
+<?php
+function impar($var)
+{
+    // Retorna siempre que el número entero sea impar
+    return($var & 1);
+}
+
+function par($var)
+{
+    // Retorna siempre que el número entero sea par
+    return(!($var & 1));
+}
+
+$array1 = array("a"=>1, "b"=>2, "c"=>3, "d"=>4, "e"=>5);
+$array2 = array(6, 7, 8, 9, 10, 11, 12);
+
+echo "Impar :\n";
+print_r(array_filter($array1, "impar"));
+echo "Par:\n";
+print_r(array_filter($array2, "par"));
+?>
+
+$str = 'abcdef';
+echo strlen($str); // 6
+
+$a=App\Post::all()->lists("content"); //array de contenidos
+$b=implode(" ",$a); // String completo
+$c=explode(" ",$b); // array de palabras
+//funcion de filter
+$d=array_count_values($c);// array con su contador
+$e
+$f=array_keys($e);//devuelve array
+
